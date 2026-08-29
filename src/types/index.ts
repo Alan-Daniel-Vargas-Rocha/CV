@@ -18,6 +18,7 @@ export interface Skill {
   name: string;
   icon: string;
   color: string;
+  description?: string;
 }
 
 export interface SocialLink {

@@ -1,10 +1,17 @@
-import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaEnvelope, FaFilePdf } from 'react-icons/fa';
 import { personalInfo } from '../../data';
 
 const Footer = () => {
   return (
     <footer className="text-center py-8 border-t border-white/10">
-      <div className="flex justify-center gap-6 mb-4">
+      <div className="flex flex-wrap justify-center gap-4 mb-4">
+        <a 
+          href="/CV.pdf" 
+          download 
+          className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-lg flex items-center gap-2 transition text-sm"
+        >
+          <FaFilePdf /> Descargar CV
+        </a>
         <a href={personalInfo.github} target="_blank" className="text-gray-400 hover:text-blue-400 transition text-2xl">
           <FaGithub />
         </a>
