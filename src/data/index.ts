@@ -1,13 +1,13 @@
-// src/data/index.ts
+import { contactInfo } from '../config.local';
 import type { Project, Skill } from '../types';
 
 export const personalInfo = {
   name: 'Alan Daniel Vargas Rocha',
   title: 'Estudiante de Ingeniería en Desarrollo de Software | CESUN',
-  email: '2403230240@cesunbc.edu.mx',
-  phone: '+52 664 821 4996',
-  github: 'https://github.com/Alan-Daniel-Vargas-Rocha',
-  linkedin: 'https://www.linkedin.com/in/alan-vargas-5b564833b/',
+  email: contactInfo.email,
+  phone: contactInfo.phone,
+  github: contactInfo.github,
+  linkedin: contactInfo.linkedin,
   description: 'Estudiante de Ingeniería en Desarrollo de Software en CESUN, con formación técnica en computación. Me especializo en tres áreas clave: desarrollo web con React y JavaScript, desarrollo de aplicaciones empresariales con C# y SQL Server, y sistemas IoT con Arduino y ESP32. Apasionado por crear soluciones prácticas que resuelvan problemas reales, con un enfoque en la calidad del código y la experiencia de usuario. Cuento con nivel de inglés conversacional y experiencia en proyectos académicos y personales.',
   stats: [
     { value: '3+', label: 'Años codificando' },
@@ -32,6 +32,30 @@ export const personalInfo = {
   ],
 };
 
+export const certificates = [
+  {
+    id: 1,
+    name: 'Ingles B2 (Constancia)',
+    issuer: 'CESUN Universidad',
+    date: '2025',
+    url: 'https://drive.google.com/file/d/1JdZQYyYcrlnI4zu19NSH_IoxkYwpn8bs/view?usp=sharing',
+  },
+  {
+    id: 2,
+    name: 'Comunicación efectiva para el trabajo',
+    issuer: 'CESUN Universidad',
+    date: '2025',
+    url: 'https://drive.google.com/file/d/1kE2YgnCzTgkEDoF9VA9lRKnwI11LNiXq/view?usp=sharing',
+  },
+  {
+    id: 1,
+    name: 'Certificado de Desarrollo de Software (Cedula aprobatoria)',
+    issuer: 'CESUN Universidad',
+    date: '2026',
+    url: 'https://drive.google.com/file/d/11h6OtpG_pib8mmTdwtYwbqN3I6sJKQaa/view?usp=sharing',
+  }
+  // Agrega más certificados aquí
+];
 export const skills: Skill[] = [
   { name: 'C#', icon: 'SiSharp', color: 'text-purple-400' },
   { name: 'Python', icon: 'SiPython', color: 'text-blue-400' },
