@@ -28,14 +28,14 @@ export const personalInfo = {
   ],
   languages: [
     { name: 'Español', level: 'Nativo' },
-    { name: 'Inglés', level: 'Conversacional (65%)' },
+    { name: 'Inglés', level: 'B2' },
   ],
 };
 
 export const certificates = [
   {
     id: 1,
-    name: 'Ingles B2 (Constancia)',
+    name: 'Inglés B2 (Constancia)',
     issuer: 'CESUN Universidad',
     date: '2025',
     url: 'https://drive.google.com/file/d/1JdZQYyYcrlnI4zu19NSH_IoxkYwpn8bs/view?usp=sharing',
