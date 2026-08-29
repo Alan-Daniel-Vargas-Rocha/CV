@@ -1,5 +1,5 @@
-import { FaGithub, FaLinkedin, FaEnvelope, FaWhatsapp } from 'react-icons/fa';
-import { personalInfo } from '../data';
+import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
+import { personalInfo } from '../../data';
 
 const Footer = () => {
   return (
@@ -14,16 +14,8 @@ const Footer = () => {
         <a href={`mailto:${personalInfo.email}`} className="text-gray-400 hover:text-blue-400 transition text-2xl">
           <FaEnvelope />
         </a>
-        <a href={`https://wa.me/${personalInfo.phone.replace(/\s/g, '')}`} target="_blank" className="text-gray-400 hover:text-green-400 transition text-2xl">
-          <FaWhatsapp />
-        </a>
       </div>
-      <p className="text-gray-400 text-sm">
-        © 2026 {personalInfo.name} - React + TypeScript + Tailwind
-      </p>
-      <p className="text-gray-500 text-xs mt-2">
-        Si puedes imaginarlo puedes crearlo
-      </p>
+      <p className="text-gray-400 text-sm">© 2024 {personalInfo.name}</p>
     </footer>
   );
 };

@@ -1,4 +1,4 @@
-import { personalInfo } from '../data';
+import { personalInfo } from '../../../data';
 
 const About = () => {
   return (
