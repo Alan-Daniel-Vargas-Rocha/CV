@@ -25,7 +25,7 @@ const Header = () => {
             href="mailto:alanvaro1117@gmail.com?subject=Contacto%20desde%20tu%20portafolio"
             className="flex items-center gap-2 bg-blue-500/20 px-4 py-2 rounded-full hover:text-blue-400 transition"
           >
-            <FaEnvelope /> alanvaro1117@gmail.com
+            <FaEnvelope /> Correo electronico
           </a>
           
           {/* Teléfono */}
@@ -33,7 +33,7 @@ const Header = () => {
             href="tel:+526648214996"
             className="flex items-center gap-2 bg-green-500/20 px-4 py-2 rounded-full hover:text-blue-400 transition"
           >
-            <FaPhone /> +52 664 821 4996
+            <FaPhone /> Telefono
           </a>
           
           {/* GitHub */}
