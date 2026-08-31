@@ -94,7 +94,7 @@ export const projects: Project[] = [
     tech: 'React, JavaScript, CSS, SQL Server',
     category: 'Web',
     isExecutable: false,
-    githubUrl: 'https://alan-daniel-vargas-rocha.github.io/Gestor-videojuegos/',
+    githubUrl: 'https://github.com/Alan-Daniel-Vargas-Rocha/Gestor-videojuegos.git',
     URL: 'https://alan-daniel-vargas-rocha.github.io/Gestor-videojuegos/',
   },
   // {
@@ -151,9 +151,11 @@ export const projects: Project[] = [
     description: 'Monitoreo de temperatura, gas y humedad con ESP32 y ThingsBoard.',
     fullDescription: 'Sistema que monitorea y controla variables ambientales como temperatura, gas y humedad, utilizando sensores conectados a un microcontrolador ESP32 y visualización en un dashboard de ThingsBoard.cloud.',
     image: './assets/IoT-ambiente.png',
+    video: './assets/Sistema-ambiental.mp4',
     tech: 'Arduino',
     category: 'IoT',
     isExecutable: false,
     githubUrl: 'https://github.com/Alan-Daniel-Vargas-Rocha/sistema-control-ambiental-esp32',
+    URL: 'https://thingsboard.cloud/dashboard/b847ac00-8dc3-11f1-8b3b-037118875eb0?publicId=d9444bb0-a4df-11f1-91de-5db5b2227135'
   }
 ];
