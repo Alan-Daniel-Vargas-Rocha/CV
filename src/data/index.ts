@@ -19,11 +19,13 @@ export const personalInfo = {
       institution: 'CESUN Universidad',
       degree: 'Ingeniería en Desarrollo de Software',
       period: '2026 - Actualidad',
+      Kardex: 'https://drive.google.com/file/d/1Lz-txY-h0VZFv6XK9oGGY4xTGfsxTk1T/view?usp=sharing'
     },
     {
       institution: 'Colegio de Estudios Básicos y Bachillerato de Tijuana',
       degree: 'Carrera Técnica en Computación',
       period: '2021 - 2024',
+      Certificado: 'https://drive.google.com/file/d/1aonUhE8j6wxl2SR3IGejrwgSEs4Icvfw/view?usp=sharing'
     },
   ],
   languages: [

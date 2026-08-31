@@ -1,3 +1,4 @@
+import { FaExternalLinkAlt, FaFileAlt } from 'react-icons/fa';
 import { personalInfo } from '../../../data';
 
 const Education = () => {
@@ -12,6 +13,33 @@ const Education = () => {
             <h3 className="text-xl font-semibold text-blue-300">{edu.institution}</h3>
             <p className="text-gray-300">{edu.degree}</p>
             <p className="text-gray-400 text-sm">{edu.period}</p>
+            
+            {/* === ENLACES A CERTIFICADOS === */}
+            <div className="flex flex-wrap gap-3 mt-3">
+              {/* Kardex */}
+              {edu.Kardex && (
+                <a 
+                  href={edu.Kardex} 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 bg-blue-500/20 hover:bg-blue-500/30 text-blue-300 px-3 py-1.5 rounded-full text-sm transition"
+                >
+                  <FaFileAlt /> Ver Kardex <FaExternalLinkAlt className="text-xs" />
+                </a>
+              )}
+              
+              {/* Certificado */}
+              {edu.Certificado && (
+                <a 
+                  href={edu.Certificado} 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 bg-green-500/20 hover:bg-green-500/30 text-green-300 px-3 py-1.5 rounded-full text-sm transition"
+                >
+                  <FaFileAlt /> Ver Certificado <FaExternalLinkAlt className="text-xs" />
+                </a>
+              )}
+            </div>
           </div>
         ))}
       </div>
