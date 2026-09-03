@@ -68,7 +68,7 @@ export const skills: Skill[] = [
   { name: 'SQL Server', icon: 'SiMicrosoftsqlserver', color: 'text-red-400' },
   // { name: 'Unity', icon: 'SiUnity', color: 'text-gray-300' },
   { name: 'Arduino', icon: 'SiArduino', color: 'text-green-400' },
-
+  {name: 'Node.js', icon: 'SiNodedotjs', color: 'text-green-600' },
 ];
 
 
@@ -157,5 +157,19 @@ export const projects: Project[] = [
     isExecutable: false,
     githubUrl: 'https://github.com/Alan-Daniel-Vargas-Rocha/sistema-control-ambiental-esp32',
     URL: 'https://thingsboard.cloud/dashboard/b847ac00-8dc3-11f1-8b3b-037118875eb0?publicId=d9444bb0-a4df-11f1-91de-5db5b2227135'
+  },
+
+  {
+    id: 8,
+    title: 'Sistema de control ambiental en Node.js',
+    description: 'Monitoreo de temperatura, gas y humedad con ESP32 y ThingsBoard.',
+    fullDescription: 'Sistema que monitorea y controla variables ambientales como temperatura, gas y humedad, utilizando sensores conectados a un microcontrolador ESP32 y visualización en un dashboard de ThingsBoard.cloud.',
+    image: './assets/Fotonode-control_ambiente.png',
+    video: './assets/Video Project 5.mp4',
+    tech: 'Node.js',
+    category: 'IoT',
+    isExecutable: false,
+    githubUrl: 'https://github.com/Alan-Daniel-Vargas-Rocha/IoT-dashboard-DHT11-MQ2.git',
+    URL: 'https://alan-daniel-vargas-rocha.github.io/IoT-dashboard-DHT11-MQ2/'
   }
 ];
