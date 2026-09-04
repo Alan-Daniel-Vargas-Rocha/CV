@@ -10,7 +10,7 @@ const Footer = () => {
           download 
           className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-lg flex items-center gap-2 transition text-sm"
         >
-          <FaFilePdf /> Descargar CV
+          <FaFilePdf /> Ver CV
         </a>
         <a href={personalInfo.github} target="_blank" className="text-gray-400 hover:text-blue-400 transition text-2xl">
           <FaGithub />
