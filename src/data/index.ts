@@ -121,7 +121,7 @@ export const projects: Project[] = [
     category: 'Python',
     isExecutable: false,
     downloadUrl: 'https://drive.google.com/uc?export=download&id=1ABCDEFGHIJKLMNOPQRST', // ← Reemplaza con tu ID de Google Drive
-    githubUrl: 'https://github.com/Alan-Daniel-Vargas-Rocha/calculadora-tkinter',
+    githubUrl: 'https://github.com/Alan-Daniel-Vargas-Rocha/Calculadora-TK.git',
   },
   {
     id: 5,
