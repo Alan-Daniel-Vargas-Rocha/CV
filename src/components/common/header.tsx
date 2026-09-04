@@ -7,7 +7,7 @@ const Header = () => {
       <div className="flex flex-col items-center px-4">
         {/* Foto de perfil */}
         <img 
-          src="./assets/Foto1.png" 
+          src="./assets/Foto_mio.png" 
           alt={personalInfo.name}
           className="w-40 h-40 rounded-full border-4 border-blue-400 shadow-xl object-cover mb-4"
         />
