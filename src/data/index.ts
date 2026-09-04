@@ -8,7 +8,7 @@ export const personalInfo = {
   phone: contactInfo.phone,
   github: contactInfo.github,
   linkedin: contactInfo.linkedin,
-  description: 'Estudiante de Ingeniería en Desarrollo de Software en CESUN, con formación técnica en computación. Me especializo en tres áreas clave: desarrollo web con React y JavaScript, desarrollo de aplicaciones empresariales con C# y SQL Server, y sistemas IoT con Arduino y ESP32. Apasionado por crear soluciones prácticas que resuelvan problemas reales, con un enfoque en la calidad del código y la experiencia de usuario. Cuento con nivel de inglés conversacional y experiencia en proyectos académicos y personales.',
+  description: 'Soy estudiante de Ingeniería en Desarrollo de Software en CESUN, con formación técnica en Computación. Me especializo en desarrollo web con React y Node.js, aplicaciones empresariales con C# y SQL Server, y sistemas IoT con Arduino y ESP32.Me enfoco en crear soluciones funcionales con código limpio, 7 proyectos con demo en vivo y repositorio público. Inglés B2 conversacional.',
   stats: [
     { value: '3+', label: 'Años codificando' },
     { value: '5+', label: 'Proyectos completados' },
