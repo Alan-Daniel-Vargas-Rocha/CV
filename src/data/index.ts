@@ -79,7 +79,7 @@ export const projects: Project[] = [
     description: 'API RESTful con autenticación y documentación automática.',
     fullDescription: 'API RESTful desarrollada con FastAPI y Python, incluyendo autenticación JWT, validación de datos con Pydantic y documentación automática con Swagger. Utiliza SQLAlchemy para la base de datos local.',
     image: './assets/FastAPI.png',
-    video: './assets/API.mp4', // ← Nueva propiedad opcional para video
+    video: 'https://drive.google.com/file/d/1dm2gT6hk2GAtZJbPR1Nztqlz939vzHIQ/view?usp=sharing', 
     tech: 'Python, SQL Server',
     category: 'Web',
     isExecutable: false,
@@ -116,7 +116,7 @@ export const projects: Project[] = [
     description: 'Calculadora científica con interfaz gráfica, compilada a .exe para Windows.',
     fullDescription: 'Calculadora científica con funciones avanzadas (seno, coseno, logaritmos, exponenciales), empaquetada como un archivo .exe para que cualquier usuario de Windows pueda usarla sin instalar Python. Desarrollada con Python y TKinter.',
     image: './assets/CalculadoraTK.png',
-    video: './assets/CalculadoraTK.mp4', // ← Nueva propiedad opcional para video
+    video: 'https://drive.google.com/file/d/1jHCK2LWAee9cUTaZo1KZ73U20_qviMq_/view?usp=sharing', // ← Nueva propiedad opcional para video
     tech: 'Python',
     category: 'Python',
     isExecutable: false,
@@ -151,7 +151,7 @@ export const projects: Project[] = [
     description: 'Monitoreo de temperatura, gas y humedad con ESP32 y ThingsBoard.',
     fullDescription: 'Sistema que monitorea y controla variables ambientales como temperatura, gas y humedad, utilizando sensores conectados a un microcontrolador ESP32 y visualización en un dashboard de ThingsBoard.cloud.',
     image: './assets/IoT-ambiente.png',
-    video: './assets/Sistema_IoT.mp4',
+    video: 'https://www.youtube.com/embed/QhZ4BOD2x-I?si=Ynff2wXIOSVfSIs6',
     tech: 'Arduino',
     category: 'IoT',
     isExecutable: false,
@@ -165,11 +165,11 @@ export const projects: Project[] = [
     description: 'Monitoreo de temperatura, gas y humedad con ESP32 y ThingsBoard.',
     fullDescription: 'Sistema que monitorea y controla variables ambientales como temperatura, gas y humedad, utilizando sensores conectados a un microcontrolador ESP32 y visualización en un dashboard de ThingsBoard.cloud.',
     image: './assets/Fotonode-control_ambiente.png',
-    video: './assets/Sistema_IoT.mp4',
+    video: 'https://www.youtube.com/embed/QhZ4BOD2x-I?si=Ynff2wXIOSVfSIs6',
     tech: 'Node.js',
     category: 'IoT',
     isExecutable: false,
-    githubUrl: 'https://github.com/Alan-Daniel-Vargas-Rocha/IoT-dashboard-DHT11-MQ2.git',
+    githubUrl: 'https://drive.google.com/uc?export=download&id=1xjkgaO_nwVUom6DRauLKkzGiLyeStICB',
     URL: 'https://alan-daniel-vargas-rocha.github.io/IoT-dashboard-DHT11-MQ2/'
   }
 ];

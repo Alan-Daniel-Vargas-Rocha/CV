@@ -32,7 +32,6 @@ const ProjectDetail = () => {
 
   // Resolver rutas
   const imageSrc = getAssetPath(project.image);
-  const videoSrc = project.video ? getAssetPath(project.video) : null;
   const hasUrl = project.URL && project.URL.length > 0;
 
   return (
@@ -64,29 +63,17 @@ const ProjectDetail = () => {
         ))}
       </div>
 
-      {/* === SECCIÓN DE VIDEO O IMAGEN === */}
       <div className="bg-gray-800/50 rounded-xl p-4 mb-6 flex justify-center">
-        {videoSrc ? (
-          <video 
-            controls 
-            autoPlay 
-            muted 
-            loop 
-            className="max-h-96 w-full object-contain rounded-lg"
-            onError={(e) => {
-              console.error('❌ Error al cargar el video:', videoSrc);
-              const videoEl = e.target as HTMLVideoElement;
-              videoEl.style.display = 'none';
-              const img = document.createElement('img');
-              img.src = imageSrc;
-              img.className = 'max-h-80 object-contain rounded-lg';
-              img.alt = project.title;
-              videoEl.parentNode?.appendChild(img);
-            }}
-          >
-            <source src={videoSrc} type="video/mp4" />
-            Tu navegador no soporta la reproducción de videos.
-          </video>
+        {project.video ? (
+          <iframe
+            src={project.video}
+            title={project.title}
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+            className="w-full aspect-video rounded-lg"
+            sandbox="allow-same-origin allow-scripts allow-popups allow-forms"
+          />
+          
         ) : (
           <img 
             src={imageSrc}
